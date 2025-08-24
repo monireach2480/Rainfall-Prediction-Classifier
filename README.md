@@ -1,0 +1,60 @@
+# Rainfall Prediction Classifier - Final Project
+
+This project builds a machine learning classifier to predict rainfall in Australia using weather data from the Australian Government's Bureau of Meteorology.
+
+## Project Structure
+
+- `FinalProject_AUSWeather.ipynb`  
+  Main Jupyter notebook containing all code, analysis, and results.
+- `.qodo/`  
+  (Optional) Directory for IDE or environment-specific files.
+
+## Objectives
+
+- Explore and perform feature engineering on real-world weather data.
+- Build a classifier pipeline and optimize it using grid search cross-validation.
+- Evaluate model performance using various metrics and visualizations.
+- Implement and compare different classifiers.
+
+## Data
+
+The dataset is loaded directly from:
+[https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/_0eYOqji3unP1tDNKWZMjg/weatherAUS-2.csv](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/_0eYOqji3unP1tDNKWZMjg/weatherAUS-2.csv)
+
+It contains daily weather observations from multiple locations in Australia.
+
+## Usage
+
+1. **Install dependencies**  
+   Required libraries:  
+   - numpy  
+   - pandas  
+   - matplotlib  
+   - scikit-learn  
+   - seaborn
+
+   You can install them with:
+   ```sh
+   pip install numpy pandas matplotlib scikit-learn seaborn
+   ```
+
+2. **Open and run the notebook**  
+   Open `FinalProject_AUSWeather.ipynb` in Jupyter Notebook or VS Code and run the cells sequentially.
+
+3. **Follow the exercises**  
+   The notebook is organized into exercises guiding you through data loading, preprocessing, model building, evaluation, and interpretation.
+
+## Results
+
+- The best model is a Random Forest classifier, optimized via grid search.
+- Model performance is evaluated using accuracy, confusion matrix, classification report, and feature importances.
+- The most important feature for predicting rainfall is typically `Humidity3pm`.
+
+## Author
+
+- [Jeff Grossman](https://www.linkedin.com/in/jpgrossman/)
+- Other contributors: [Abhishek Gagneja](https://www.linkedin.com/in/abhishek-gagneja-23051987/)
+
+---
+
+© IBM Corporation. All rights reserved.
