@@ -6,8 +6,7 @@ This project builds a machine learning classifier to predict rainfall in Austral
 
 - `FinalProject_AUSWeather.ipynb`  
   Main Jupyter notebook containing all code, analysis, and results.
-- `image.png`  
-  Example result image showing model output (see below).
+![Rainfall Prediction Results](imagess.png)
 
 
 ## Objectives
